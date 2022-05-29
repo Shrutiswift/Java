@@ -1,5 +1,11 @@
-private class Firstprogram{
-    public static void main(String[] args){
-        System.out.print("Hey there! This is my first java code");
+public class Firstprogram{
+    public static void main(String[] args) {
+        String firstname = "Shruti ";
+        String Lastname = "Sharma";
+        String name = firstname + Lastname;
+        System.out.print(name);
+    
     }
 }
+
+
