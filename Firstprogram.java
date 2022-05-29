@@ -1,9 +1,9 @@
 public class Firstprogram{
     public static void main(String[] args) {
-        String firstname = "Shruti ";
-        String Lastname = "Sharma";
-        String name = firstname + Lastname;
-        System.out.print(name);
+        int f = 3;
+        int L = 8;
+        int n = f + L;
+        System.out.print(n);
     
     }
 }
