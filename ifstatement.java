@@ -6,6 +6,8 @@ public class ifstatement {
             System.out.println("Its a hot day!");
         } else if (temp > 20 && temp  <= 30){
             System.out.println("Its a good day!");
+        } else {
+            System.out.println("Cold day!");
         }
     }
 }
