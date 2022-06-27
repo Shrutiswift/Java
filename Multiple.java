@@ -6,9 +6,6 @@ public class Multiple{
         this.age = age;
         this.name = name;
     }
-    public Multiple() {
-
-    }
     public void display() {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter your name: ");
