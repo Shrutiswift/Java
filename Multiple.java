@@ -15,10 +15,11 @@ public class Multiple{
         String name = input.next();
         System.out.println("Enter your age: ");
         int age = input.nextInt();
-
     }
     public static void main(String[] args) {
-        Multiple object = new Multiple();
+        String name = null;
+        int age = 0;
+        Multiple object = new Multiple(null, age);
         object.display();
     }
 }
