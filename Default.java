@@ -1,11 +1,7 @@
 import java.util.Scanner;
 
 public class Default {
-
-//    Default(){
-//        System.out.println("This is a default constructor");
-//    }
-      public static void main(String[] args) {
+    public static void main(String[] args) {
 //        Default obj = new Default();
           Scanner input = new Scanner(System.in);
           System.out.println("How many times do you want to take input?");
@@ -13,6 +9,7 @@ public class Default {
           for(int i = 0; i < a; i++) {
               System.out.println("What is your name?");
               String name = input.next();
+              System.out.println("Hello " + name + "!");
           }
 
       }
