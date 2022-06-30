@@ -21,6 +21,6 @@ class car extends Vehicle{
     public static void main(String[] args) {
         car myCar = new car();
         myCar.horn();
-        System.out.println(myCar.brand);
+        System.out.println(myCar.brand + ""+ myCar.modelName);
     }
 }
