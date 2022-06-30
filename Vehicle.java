@@ -4,12 +4,19 @@ public class Vehicle {
     public void slowdown(int decrement){
         speed -= decrement;
     }
+    public Vehicle(){
+
+    }
     public void horn(){
         System.out.println("hey!");
     }
 }
 class car extends Vehicle{
     String modelName = "Maruti Suzuki";
+
+    public car(){
+
+    }
 
     public static void main(String[] args) {
         car myCar = new car();
