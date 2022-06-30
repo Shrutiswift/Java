@@ -1,5 +1,9 @@
 public class Vehicle {
+    public int speed;
     protected String brand = "tata";
+    public void slowdown(int decrement){
+        speed -= decrement;
+    }
     public void horn(){
         System.out.println("hey!");
     }
