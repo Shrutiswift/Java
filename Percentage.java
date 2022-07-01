@@ -4,7 +4,8 @@ public class Percentage {
     private int percent;
     private int numSubjects;
     private int total;
-    void Percentage() {
+    Percentage() {
+
         total = 0;
     }
 
@@ -20,6 +21,7 @@ public class Percentage {
     }
 
     public void calculate() {
+
         percent = (total*100)/(numSubjects*100);
     }
 
