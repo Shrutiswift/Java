@@ -1,6 +1,4 @@
-interface Drawable{
-    void draw();
-};
+
 class Rectangle implements Drawable {
     public void draw(){
         System.out.println("hsavhs");
