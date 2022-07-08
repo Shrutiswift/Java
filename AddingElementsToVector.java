@@ -5,8 +5,6 @@ public class AddingElementsToVector {
     public static void main(String[] args) {
         Vector vt = new Vector();
         vt.add(2);
-        vt.add("Hey");
-        vt.add(100);
         System.out.println("Vector: " + vt);
 
     }
