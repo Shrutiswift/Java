@@ -1,7 +1,7 @@
 class ThrowsExecp {
     static void fun() throws IllegalAccessException
     {
-        System.out.println("Inside fun(). ");
+        System.out.println("hello friends. ");
         throw new IllegalAccessException("demo");
     }
     public static void main(String args[])
