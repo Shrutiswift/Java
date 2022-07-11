@@ -1,16 +1,11 @@
 class ThrowsExecp {
-    static void fun() throws IllegalAccessException
-    {
-        System.out.println("hello friends. ");
-        throw new IllegalAccessException("demo");
-    }
-    public static void main(String args[])
-    {
-        try {
-            fun();
+    public static void main(String[] args) {
+        try{
+            int data = 0/0;
         }
-        catch (IllegalAccessException e) {
-            System.out.println("caught in main.");
+        catch(ArithmeticException e){
+            System.out.println(e);
+            System.out.println("0");
         }
     }
 }
