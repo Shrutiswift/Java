@@ -1,11 +1,18 @@
 class ThrowsExecp {
-    public static void main(String[] args) {
+    void m(){
+        int data=50/0;
+    }
+    void n(){
+        m();
+    }
+    void p(){
         try{
-            int data;
-        }
-        catch(ArithmeticException e){
-            System.out.println(e);
-            System.out.println("0");
-        }
+            n();
+        }catch(Exception e){System.out.println("exception handled");}
+    }
+    public static void main(String args[]){
+        ThrowsExecp obj=new ThrowsExecp();
+        obj.p();
+        System.out.println("normal flow...");
     }
 }
