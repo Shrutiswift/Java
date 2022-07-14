@@ -13,6 +13,6 @@ class ThrowsExecp {
     public static void main(String args[]){
         ThrowsExecp obj=new ThrowsExecp();
         obj.p();
-        System.out.println("normal flow...");
+        System.out.println("this is an error.");
     }
 }
